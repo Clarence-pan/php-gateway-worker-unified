@@ -1,0 +1,15 @@
+{
+    "name": "clarence/gateway-worker-unified",
+    "description": "A unified library for workerman/gateway-worker and workerman/gateway-worker-for-win",
+    "authors": [
+        {
+            "name": "Clarence",
+            "email": "clarence-pan@foxmail.com"
+        }
+    ],
+    "require": {
+        "workerman/gateway-worker": "^3.0",
+        "workerman/gateway-worker-for-win": "^3.0",
+        "clarence/workerman-unified": "^0.0.3"
+    }
+}
