@@ -4,46 +4,24 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "92f7072e8dcfb758be4039ab65bb4c98",
-    "content-hash": "3b875e513e8045ba333f6d7c5fe99b07",
+    "hash": "f0ae61cdc8929a8fd45f37a5d2119de0",
+    "content-hash": "153812ee4280674c48c3b2fd85ca7ac8",
     "packages": [
         {
             "name": "clarence/workerman-unified",
-            "version": "v0.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Clarence-pan/php-workerman-unified.git",
-                "reference": "00bb3dadf0112005c2cdefe43736f07abfdf6204"
-            },
+            "version": "0.0.3",
             "dist": {
                 "type": "zip",
-                "url": "https://packagist.phpcomposer.com/files/Clarence-pan/php-workerman-unified/00bb3dadf0112005c2cdefe43736f07abfdf6204.zip",
-                "reference": "00bb3dadf0112005c2cdefe43736f07abfdf6204",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.5",
-                "workerman/workerman": "^3.3",
-                "workerman/workerman-for-win": "^3.3"
+                "url": "https://github.com/Clarence-pan/php-workerman-unified/archive/v0.0.3.zip",
+                "reference": null,
+                "shasum": null
             },
             "type": "library",
             "autoload": {
                 "files": [
                     "./src/unified_workerman_loader.php"
                 ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Clarence",
-                    "email": "clarence-pan@foxmail.com"
-                }
-            ],
-            "description": "A unified library for workerman/workerman and workerman/workerman-for-win",
-            "time": "2016-11-07 06:16:34"
+            }
         },
         {
             "name": "workerman/gateway-worker",
