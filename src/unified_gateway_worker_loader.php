@@ -36,7 +36,7 @@ call_user_func(function(){
 
     // a simple psr-4 autoloader
     spl_autoload_register(function($class) use ($workerSrcDir, $workerNamespace, $workerNamespaceLen){
-        if (substr_compare($class, $workerNamespace, $workerNamespaceLen) === 0){
+        if (strlen($class) > $workerNamespaceLen && substr_compare($class, $workerNamespace, $workerNamespaceLen) === 0){
             $file = $workerSrcDir . PATH_SEPARATOR . str_replace('\\', PATH_SEPARATOR, substr($class, $workerNamespaceLen)) . '.php';
             if (is_file($file)){
                 require_once($file);
