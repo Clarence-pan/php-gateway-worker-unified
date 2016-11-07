@@ -3,7 +3,7 @@
 
 call_user_func(function(){
     $possibleVendorDirs = [
-        __DIR__ .'/../../../vendor', // If required by other app
+        __DIR__ .'/../../../../vendor', // If required by other app
         __DIR__ .'/../vendor',       // If installed by self
     ];
 
