@@ -2,3 +2,6 @@
 /vendor/
 *.log
 *~
+
+composer.lock
+
