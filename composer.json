@@ -10,6 +10,6 @@
     "require": {
         "workerman/gateway-worker": "^3.0",
         "workerman/gateway-worker-for-win": "^3.0",
-        "clarence/workerman-unified": "^0.0.3"
+        "clarence/workerman-unified": ">=0.0.3"
     }
 }
